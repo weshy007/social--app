@@ -7,6 +7,7 @@ urlpatterns = [
     # path('login/', views.user_login, name='login'),
     path('', views.dashboard, name='dashboard'),
     path('register/', views.register, name='register'),
+    path('edit/', views.edit, name='edit'),
 
     # LOGIN && LOGOUT URLS
     path('login/', auth_views.LoginView.as_view(), name='login'),
