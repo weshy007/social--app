@@ -12,6 +12,7 @@ django-extensions = "*"
 werkzeug = "*"
 pyopenssl = "*"
 django = "*"
+certifi = "*"
 
 [dev-packages]
 
